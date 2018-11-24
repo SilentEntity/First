@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    {% csrf_token %}
+    <script>
+        $(document).ready(function(){
+            $('#next').click(function(){
+                var jdata={
+                    username:$('#name').val(),
+                    password:$('#password').val()
+                };
+                alert('inside');
+                var tokenvalue=jQuery("[name=csrfmiddlewaretoken]").val();
+                $.ajax({
+                    type:'POST',
+                    url:'http://127.0.0.1:8000/signup/',
+                    beforeSend:function(request){
+                        request.setRequestHeader('Content-Type','application/json');
+                        request.setRequestHeader('X-CSRFToken',tokenvalue);
+
+                    },
+                    data:JSON.stringify(jdata),
+                    success:function(response){
+                        alert(response['key']);
+                        console.log(response)
+                        $('#target').append('');
+                        $('#target').append('Hi  '+response['key'])
+
+                    },
+                    error:function(e,status,x){
+                        alert('Error:'+e.status);
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+</head>
+<body><center>
+ <h2>Provide your Credentials:</h2>
+
+Gmail ID:<input type="text" name="username" id="name">
+ PASSWORD:<input type="password" id="password" name="password" ><br>
+<button id="next">Sign Up</button>
+
+<div id='target'>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOME PAGE</title>
+    <style>
+        #sign{
+            text-align: right;
+            border: 2px solid gray;
+            width: 1550px;
+            height: 260px;       
+        }
+        .button {
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 18px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+          }                    
+          
+        </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body style="background-color:rgb(173, 174, 172)">
+<div id="sign">
+    <form method="POST" action="">
+Provide Your Valid GMail ID:<input type="text" id="name" name="username">
+PASSWORD:<input type="password" id="password" name="password" ><br>
+<button id="button" class="button">SIGN IN</button>
+        </form>
+<form method='GET' action='forgot'>
+<button class='button'>Forgot Password?</button>
+</form>
+<form method='GET' action='signup'>
+    <button class='button'>Sign Up</button>
+    </form>
+<div id='target'>
+
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,1100 @@
+2018-11-21 15:00:46,410:INFO:Someone Visited the Page
+2018-11-21 15:00:50,042:INFO:Some Tried to SignUP on website
+2018-11-21 15:01:15,380:INFO:Tried to register again with existing email:deepakdx7@gmail.com
+2018-11-21 15:01:20,084:INFO:Tried to register again with existing email:deepakdx7@gmail.com
+2018-11-21 15:01:41,867:INFO:Someone tried to recover password
+2018-11-21 15:16:52,407:INFO:Someone tried to recover password
+2018-11-21 15:19:11,588:INFO:Some Tried to SignUP on website
+2018-11-21 15:19:42,634:INFO:New User Account Created:souma.villa7@gmail.com
+2018-11-21 15:19:51,473:INFO:Someone tried to recover password
+2018-11-21 15:20:20,109:INFO:Forgot Password option,Invalid UserId provided:soumo.villa7@gmail.com
+2018-11-21 15:22:28,658:INFO:Some Tried to SignUP on website
+2018-11-21 15:22:52,431:INFO:New User Account Created:soumo.villa7@gmail.com
+2018-11-21 15:22:57,484:INFO:Someone tried to recover password
+2018-11-21 15:23:17,485:INFO:Forgot Password option ,Password as send to mail:soumo.villa7@gmail.com
+2018-11-21 16:13:02,910:INFO:Someone Visited the Page
+2018-11-21 16:13:04,256:WARNING:Not Found: /favicon.ico
+2018-11-21 16:15:43,856:INFO:Someone tried to recover password
+2018-11-21 16:15:59,071:INFO:Some Tried to SignUP on website
+2018-11-21 16:27:04,572:INFO:Someone Visited the Page
+2018-11-21 16:36:08,302:INFO:Someone Visited the Page
+2018-11-21 16:36:25,953:INFO:User SignedIn with mailId:deepakdx7@gmail.com
+2018-11-21 16:36:29,605:INFO:Someone tried to recover password
+2018-11-21 16:36:55,086:INFO:Forgot Password option ,Password as send to mail:deepakdx7@gmail.com
+2018-11-21 16:37:00,280:INFO:Someone Visited the Page
+2018-11-21 16:37:02,050:INFO:Some Tried to SignUP on website
+2018-11-21 16:37:37,691:INFO:New User Account Created:dee311096@gmail.com
+2018-11-21 16:55:39,533:INFO:Someone tried to recover password
+2018-11-21 16:56:32,560:INFO:Some Tried to SignUP on website
+2018-11-21 16:57:13,106:INFO:New User Account Created:sanchit1409@gmail.com
+2018-11-21 16:57:29,390:INFO:Someone tried to recover password
+2018-11-21 16:57:38,575:INFO:Forgot Password option ,Password as send to mail:sanchit1409@gmail.com
+2018-11-21 16:58:08,518:INFO:Someone Visited the Page
+2018-11-22 01:16:32,629:INFO:Someone Visited the Page
+2018-11-22 01:16:36,090:INFO:Someone tried to recover password
+2018-11-22 01:16:41,106:INFO:Some Tried to SignUP on website
+2018-11-22 08:36:28,252:INFO:Someone Visited the Page
+2018-11-22 08:42:25,384:INFO:abhay904456@gmail.com user is viewing the list of person that follow him
+2018-11-22 09:06:24,607:INFO:User SignedIn with mailId:deepakdx7@gmail.com
+2018-11-22 09:06:24,670:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 28, in Home
+    return render_to_response(request,'homeapPages/userhomepage.html',{'data':data['username']})
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 27, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 24, in get_template
+    contents = self.get_contents(origin)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\filesystem.py", line 23, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+OSError: [Errno 22] Invalid argument: "C:\\Users\\M1049300\\Desktop\\Pyhton Projects\\DjangoProject3\\main3\\templates\\<WSGIRequest: POST '\\'>"
+2018-11-22 09:08:03,715:INFO:Someone Visited the Page
+2018-11-22 09:08:25,620:INFO:User SignedIn with mailId:deepakdx7@gmail.com
+2018-11-22 09:10:15,218:INFO:User SignedIn with mailId:deepakdx7@gmail.com
+2018-11-22 09:14:45,310:INFO:User SignedIn with mailId:deepakdx7@gmail.com
+2018-11-22 09:14:48,069:INFO:Someone Visited the Page
+2018-11-22 09:15:08,932:INFO:Invalid Data provided deepakdx7@gmal.com,PythonAwesome
+2018-11-22 09:18:55,810:INFO:Someone Visited the Page
+2018-11-22 09:19:09,266:INFO:Invalid Data provided deepakdx7@gmail.com,PyhtonAwesome
+2018-11-22 09:24:50,787:INFO:Someone Visited the Page
+2018-11-22 09:25:05,860:INFO:Invalid Data provided deepakdx7@gmail.com,PyhtonAwesome
+2018-11-22 09:25:12,115:INFO:Invalid Data provided deepakdx7@gmail.com,PyhtonAwesome
+2018-11-22 09:26:55,956:INFO:Invalid Data provided deepakdx7@gmail.com,PyhtonAwesome
+2018-11-22 09:27:28,761:INFO:Invalid Data provided deepakdx7@gmail.com,PyhtonAwesome
+2018-11-22 09:27:52,621:INFO:Someone Visited the Page
+2018-11-22 09:28:05,946:INFO:Invalid Data provided deepakdx7@gmail.com,PytonAwesome
+2018-11-22 09:29:34,543:INFO:Some Tried to SignUP on website
+2018-11-22 09:29:42,494:INFO:New User Account Created:dee
+2018-11-22 09:29:45,459:INFO:Someone Visited the Page
+2018-11-22 09:29:52,570:INFO:User SignedIn with mailId:dee
+2018-11-22 09:30:56,737:INFO:Someone Visited the Page
+2018-11-22 09:31:06,831:INFO:User SignedIn with mailId:dee
+2018-11-22 09:31:06,877:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 29, in Home
+    return render_to_response(request,'homeapPages/userhomepage.html',{'data':data['username']})
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 27, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 24, in get_template
+    contents = self.get_contents(origin)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\filesystem.py", line 23, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+OSError: [Errno 22] Invalid argument: "C:\\Users\\M1049300\\Desktop\\Pyhton Projects\\DjangoProject3\\main3\\templates\\<WSGIRequest: POST '\\'>"
+2018-11-22 09:31:45,720:INFO:Someone Visited the Page
+2018-11-22 09:31:53,457:INFO:User SignedIn with mailId:dee
+2018-11-22 09:33:31,573:INFO:Someone Visited the Page
+2018-11-22 09:33:38,569:INFO:User SignedIn with mailId:dee
+2018-11-22 09:34:30,343:INFO:Someone Visited the Page
+2018-11-22 09:37:41,980:INFO:Someone Visited the Page
+2018-11-22 09:37:50,655:INFO:User SignedIn with mailId:dee
+2018-11-22 09:37:51,263:INFO:User SignedIn with mailId:dee
+2018-11-22 09:37:52,043:INFO:User SignedIn with mailId:dee
+2018-11-22 09:37:52,192:INFO:User SignedIn with mailId:dee
+2018-11-22 09:37:52,355:INFO:User SignedIn with mailId:dee
+2018-11-22 09:37:52,540:INFO:User SignedIn with mailId:dee
+2018-11-22 09:37:52,708:INFO:User SignedIn with mailId:dee
+2018-11-22 09:37:52,878:INFO:User SignedIn with mailId:dee
+2018-11-22 09:38:03,637:INFO:User SignedIn with mailId:dee
+2018-11-22 09:38:06,781:INFO:Someone Visited the Page
+2018-11-22 09:38:16,491:INFO:User SignedIn with mailId:dee
+2018-11-22 09:43:38,017:INFO:Someone Visited the Page
+2018-11-22 09:43:42,447:WARNING:Not Found: /userhome
+2018-11-22 09:46:40,807:INFO:Someone Visited the Page
+2018-11-22 09:46:48,892:WARNING:Not Found: /userhome
+2018-11-22 09:47:55,485:INFO:Someone Visited the Page
+2018-11-22 09:48:02,186:WARNING:Forbidden (CSRF token missing or incorrect.): /
+2018-11-22 09:48:42,611:INFO:Someone Visited the Page
+2018-11-22 09:48:49,199:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 19, in Home
+    data = json.loads(request.body)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-11-22 09:50:59,605:INFO:Someone Visited the Page
+2018-11-22 09:51:07,213:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 22, in Home
+    data['username']=request.POST('username')
+TypeError: 'QueryDict' object is not callable
+2018-11-22 09:54:24,804:INFO:Someone Visited the Page
+2018-11-22 09:54:31,504:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 22, in Home
+    username=request.POST('username')
+TypeError: 'QueryDict' object is not callable
+2018-11-22 09:55:37,650:INFO:Someone Visited the Page
+2018-11-22 09:55:42,744:INFO:Invalid Data provided username,password
+2018-11-22 09:55:42,840:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 35, in Home
+    return render(request,'homeapPages/invalidPage')
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeapPages/invalidPage
+2018-11-22 09:56:05,756:WARNING:Not Found: /
+2018-11-22 09:56:12,806:WARNING:Not Found: /
+2018-11-22 09:58:54,803:INFO:Someone Visited the Page
+2018-11-22 09:59:01,413:INFO:Invalid Data provided username,password
+2018-11-22 09:59:01,568:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 35, in Home
+    return render(request,'homeapPages/invalidPage')
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeapPages/invalidPage
+2018-11-22 10:00:26,536:INFO:Someone Visited the Page
+2018-11-22 10:00:31,263:INFO:Invalid Data provided username,password
+2018-11-22 10:00:33,721:INFO:Someone Visited the Page
+2018-11-22 10:00:42,273:INFO:Invalid Data provided username,password
+2018-11-22 10:00:45,362:INFO:Someone Visited the Page
+2018-11-22 10:00:52,545:INFO:Invalid Data provided username,password
+2018-11-22 10:00:56,623:INFO:Someone Visited the Page
+2018-11-22 10:01:10,277:INFO:Invalid Data provided username,password
+2018-11-22 10:01:38,455:INFO:Someone Visited the Page
+2018-11-22 10:01:44,760:INFO:Invalid Data provided username,password
+2018-11-22 10:01:46,743:INFO:Someone Visited the Page
+2018-11-22 10:03:13,960:INFO:Someone Visited the Page
+2018-11-22 10:03:23,734:INFO:User SignedIn with mailId:username
+2018-11-22 10:03:35,164:INFO:Someone Visited the Page
+2018-11-22 10:03:56,028:INFO:Someone Visited the Page
+2018-11-22 10:04:01,277:INFO:User SignedIn with mailId:username
+2018-11-22 10:04:04,116:INFO:Someone Visited the Page
+2018-11-22 10:28:52,874:INFO:Someone Visited the Page
+2018-11-22 10:29:44,452:INFO:User SignedIn with mailId:username
+2018-11-22 10:29:51,804:INFO:User SignedIn with mailId:username
+2018-11-22 10:30:04,586:INFO:Someone Visited the Page
+2018-11-22 10:30:27,903:INFO:User SignedIn with mailId:username
+2018-11-22 10:31:31,955:INFO:Someone Visited the Page
+2018-11-22 10:31:33,748:INFO:Invalid Data provided username,password
+2018-11-22 10:31:35,891:INFO:Someone Visited the Page
+2018-11-22 10:31:40,159:INFO:Invalid Data provided username,password
+2018-11-22 10:31:42,739:INFO:Someone Visited the Page
+2018-11-22 10:31:48,617:INFO:User SignedIn with mailId:username
+2018-11-22 10:34:51,411:INFO:Someone Visited the Page
+2018-11-22 10:34:57,609:INFO:User SignedIn with mailId:username
+2018-11-22 10:38:33,659:INFO:Someone Visited the Page
+2018-11-22 10:38:40,056:INFO:User SignedIn with mailId:username
+2018-11-22 10:43:10,673:INFO:Someone Visited the Page
+2018-11-22 10:43:11,746:INFO:Someone Visited the Page
+2018-11-22 10:43:22,734:INFO:User SignedIn with mailId:username
+2018-11-22 10:44:05,292:INFO:User SignedIn with mailId:username
+2018-11-22 10:44:52,133:INFO:User SignedIn with mailId:username
+2018-11-22 10:44:52,306:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 51, in getUserData
+    return JsonResponse(mylist)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\http\response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+2018-11-22 10:45:50,667:INFO:User SignedIn with mailId:username
+2018-11-22 10:46:18,071:INFO:User SignedIn with mailId:username
+2018-11-22 10:46:18,200:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 51, in getUserData
+    return JsonResponse(mylist)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\http\response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+2018-11-22 10:46:46,031:INFO:User SignedIn with mailId:username
+2018-11-22 10:46:46,322:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 51, in getUserData
+    return JsonResponse(mylist)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\http\response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+2018-11-22 10:47:21,935:INFO:User SignedIn with mailId:username
+2018-11-22 10:47:22,108:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 51, in getUserData
+    return JsonResponse(mylist)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\http\response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+2018-11-22 10:49:05,134:INFO:User SignedIn with mailId:username
+2018-11-22 10:49:44,166:INFO:Someone Visited the Page
+2018-11-22 10:49:58,262:INFO:Invalid Data provided username,password
+2018-11-22 10:50:00,713:INFO:Someone Visited the Page
+2018-11-22 10:50:15,313:INFO:User SignedIn with mailId:username
+2018-11-22 10:55:28,482:INFO:Someone Visited the Page
+2018-11-22 10:55:41,920:INFO:User SignedIn with mailId:username
+2018-11-22 10:57:00,198:INFO:User SignedIn with mailId:username
+2018-11-22 10:58:32,915:INFO:User SignedIn with mailId:username
+2018-11-22 11:00:26,501:INFO:User SignedIn with mailId:username
+2018-11-22 11:00:51,772:INFO:User SignedIn with mailId:username
+2018-11-22 11:01:40,077:INFO:User SignedIn with mailId:username
+2018-11-22 11:03:15,208:INFO:User SignedIn with mailId:username
+2018-11-22 11:05:04,086:INFO:deepakdx7@gmail.com user is being followed by abhay904456@gmail.com
+2018-11-22 11:05:04,087:INFO:New follower add in:abhay904456@gmail.com
+2018-11-22 11:07:26,365:INFO:abhay904456@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-22 11:07:26,365:INFO:New follower add in:deepakdx7@gmail.com
+2018-11-22 11:07:53,246:INFO:User SignedIn with mailId:username
+2018-11-22 11:10:54,859:INFO:User SignedIn with mailId:username
+2018-11-22 11:14:44,890:INFO:Someone Visited the Page
+2018-11-22 11:15:26,235:INFO:User SignedIn with mailId:username
+2018-11-22 11:15:41,194:INFO:Someone Visited the Page
+2018-11-22 11:16:01,785:INFO:User SignedIn with mailId:username
+2018-11-22 11:19:20,707:INFO:User SignedIn with mailId:username
+2018-11-22 11:19:20,864:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 50, in getUserData
+    listofusers=[i for i in availableusers]
+TypeError: 'Manager' object is not iterable
+2018-11-22 11:19:43,660:INFO:User SignedIn with mailId:username
+2018-11-22 11:20:04,558:INFO:User SignedIn with mailId:username
+2018-11-22 11:20:50,364:INFO:User SignedIn with mailId:username
+2018-11-22 11:21:55,344:INFO:User SignedIn with mailId:username
+2018-11-22 11:22:29,206:INFO:User SignedIn with mailId:username
+2018-11-22 11:24:24,181:INFO:User SignedIn with mailId:username
+2018-11-22 11:25:05,348:INFO:User SignedIn with mailId:username
+2018-11-22 11:25:28,757:INFO:User SignedIn with mailId:username
+2018-11-22 11:26:45,424:INFO:User SignedIn with mailId:username
+2018-11-22 11:32:59,016:INFO:User SignedIn with mailId:username
+2018-11-22 11:33:18,914:INFO:User SignedIn with mailId:username
+2018-11-22 11:33:37,875:INFO:User SignedIn with mailId:username
+2018-11-22 11:34:24,440:INFO:User SignedIn with mailId:username
+2018-11-22 11:34:53,815:INFO:User SignedIn with mailId:username
+2018-11-22 11:35:38,994:INFO:User SignedIn with mailId:username
+2018-11-22 11:35:50,856:INFO:User SignedIn with mailId:username
+2018-11-22 11:41:45,745:INFO:User SignedIn with mailId:username
+2018-11-22 11:45:34,029:INFO:User SignedIn with mailId:username
+2018-11-22 11:46:41,256:INFO:User SignedIn with mailId:username
+2018-11-22 11:46:52,278:INFO:User SignedIn with mailId:username
+2018-11-22 11:49:08,802:INFO:User SignedIn with mailId:username
+2018-11-22 11:49:09,074:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 53, in getUserData
+    listofusers.remove(i);
+ValueError: list.remove(x): x not in list
+2018-11-22 11:49:25,924:INFO:User SignedIn with mailId:username
+2018-11-22 11:49:26,099:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 53, in getUserData
+    listofusers.remove(i)
+ValueError: list.remove(x): x not in list
+2018-11-22 11:51:35,752:INFO:User SignedIn with mailId:username
+2018-11-22 11:51:36,016:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 53, in getUserData
+    listofusers.remove(data['username'])
+ValueError: list.remove(x): x not in list
+2018-11-22 11:55:13,915:INFO:User SignedIn with mailId:username
+2018-11-22 11:55:14,089:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 52, in getUserData
+    if listofusers[i]['username'] == data['username']:
+IndexError: list index out of range
+2018-11-22 11:57:42,309:INFO:User SignedIn with mailId:username
+2018-11-22 11:57:42,527:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 54, in getUserData
+    if listofusers[i]['username'] == data['username']:
+IndexError: list index out of range
+2018-11-22 11:58:16,128:INFO:User SignedIn with mailId:username
+2018-11-22 11:58:16,298:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 55, in getUserData
+    if listofusers[i]['username'] == data['username']:
+IndexError: list index out of range
+2018-11-22 11:59:10,327:INFO:User SignedIn with mailId:username
+2018-11-22 11:59:10,590:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 56, in getUserData
+    if listofusers[i]['username'] == data['username']:
+IndexError: list index out of range
+2018-11-22 12:00:40,431:INFO:User SignedIn with mailId:username
+2018-11-22 12:00:40,586:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 53, in getUserData
+    if listofusers[i]['username'] == data['username']:
+IndexError: list index out of range
+2018-11-22 12:01:44,519:INFO:User SignedIn with mailId:username
+2018-11-22 12:06:52,566:INFO:User SignedIn with mailId:username
+2018-11-22 12:06:52,751:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 56, in getUserData
+    print(mylist[0][following][j]['username'])
+KeyError: <function following at 0x0000025E87DF1488>
+2018-11-22 12:07:17,710:INFO:User SignedIn with mailId:username
+2018-11-22 12:07:17,874:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 56, in getUserData
+    print(mylist[0][following][j])
+KeyError: <function following at 0x000001FC89802400>
+2018-11-22 12:08:25,223:INFO:User SignedIn with mailId:username
+2018-11-22 12:08:25,409:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 57, in getUserData
+    if j<len(mylist[0]['following']) and listofusers[i]['username']== mylist[0][following][j]['username']:
+KeyError: <function following at 0x00000191985A2400>
+2018-11-22 12:09:17,067:INFO:User SignedIn with mailId:username
+2018-11-22 12:09:17,234:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 57, in getUserData
+    if j<len(mylist[0]['following']) and listofusers[i]['username']== mylist[0]['following'][j]:
+IndexError: list index out of range
+2018-11-22 12:10:19,478:INFO:User SignedIn with mailId:username
+2018-11-22 12:10:19,670:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 58, in getUserData
+    if j<len(mylist[0]['following']) and listofusers[i]['username']== mylist[0]['following'][j]:
+IndexError: list index out of range
+2018-11-22 12:12:23,603:INFO:User SignedIn with mailId:username
+2018-11-22 12:13:02,311:INFO:User SignedIn with mailId:username
+2018-11-22 12:24:13,624:INFO:User SignedIn with mailId:username
+2018-11-22 12:25:21,613:INFO:User SignedIn with mailId:username
+2018-11-22 12:26:14,853:INFO:User SignedIn with mailId:username
+2018-11-22 12:26:43,698:INFO:User SignedIn with mailId:username
+2018-11-22 12:27:33,044:INFO:User SignedIn with mailId:username
+2018-11-22 12:27:47,052:INFO:User SignedIn with mailId:username
+2018-11-22 12:29:13,576:INFO:User SignedIn with mailId:username
+2018-11-22 12:29:37,544:INFO:User SignedIn with mailId:username
+2018-11-22 12:29:44,090:INFO:User SignedIn with mailId:username
+2018-11-22 12:29:54,938:INFO:User SignedIn with mailId:username
+2018-11-22 12:30:00,104:INFO:User SignedIn with mailId:username
+2018-11-22 12:30:05,763:INFO:User SignedIn with mailId:username
+2018-11-22 12:30:37,547:INFO:User SignedIn with mailId:username
+2018-11-22 12:30:55,972:INFO:User SignedIn with mailId:username
+2018-11-22 12:31:01,802:INFO:User SignedIn with mailId:username
+2018-11-22 12:31:05,914:INFO:User SignedIn with mailId:username
+2018-11-22 12:31:19,622:INFO:User SignedIn with mailId:username
+2018-11-22 12:31:41,387:INFO:User SignedIn with mailId:username
+2018-11-22 12:31:51,477:INFO:User SignedIn with mailId:username
+2018-11-22 12:31:56,890:INFO:User SignedIn with mailId:username
+2018-11-22 12:37:10,010:INFO:User SignedIn with mailId:username
+2018-11-22 12:37:15,603:INFO:Someone Visited the Page
+2018-11-22 12:37:19,139:INFO:Some Tried to SignUP on website
+2018-11-22 14:18:21,287:INFO:Some Tried to SignUP on website
+2018-11-22 14:19:09,973:INFO:New User Account Created:shikhasmart2@gmail.com
+2018-11-22 14:19:18,670:INFO:Someone tried to recover password
+2018-11-22 14:19:26,821:ERROR:Internal Server Error: /forgot/
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 109, in forgot
+    mail.login('entitysilent@gmail.com', '')
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (501, b'5.5.2 Cannot Decode response 78sm38408543pft.184 - gsmtp')
+2018-11-22 14:21:29,385:INFO:Forgot Password option ,Password as send to mail:shikhasmart2@gmail.com
+2018-11-23 15:21:56,056:INFO:Someone Visited the Page
+2018-11-23 15:21:56,518:WARNING:Not Found: /favicon.ico
+2018-11-23 15:21:58,201:INFO:Someone tried to recover password
+2018-11-23 15:22:01,953:INFO:Some Tried to SignUP on website
+2018-11-23 15:22:23,834:INFO:Invalid Data provided username,password
+2018-11-23 15:22:25,943:INFO:Someone Visited the Page
+2018-11-23 15:22:59,111:INFO:Invalid Data provided username,password
+2018-11-23 15:23:00,764:INFO:Someone Visited the Page
+2018-11-23 15:23:18,990:INFO:User SignedIn with mailId:username
+2018-11-23 15:31:55,180:INFO:User SignedIn with mailId:username
+2018-11-23 15:33:04,955:INFO:User SignedIn with mailId:username
+2018-11-23 15:33:09,215:INFO:Someone Visited the Page
+2018-11-23 15:34:20,720:INFO:Someone Visited the Page
+2018-11-23 15:34:24,265:INFO:Someone Visited the Page
+2018-11-23 15:35:54,677:INFO:User SignedIn with mailId:username
+2018-11-23 15:36:24,168:INFO:User SignedIn with mailId:username
+2018-11-23 15:37:09,385:INFO:User SignedIn with mailId:username
+2018-11-23 15:37:39,867:INFO:User SignedIn with mailId:username
+2018-11-23 15:38:20,284:INFO:Someone Visited the Page
+2018-11-23 15:38:31,823:INFO:User SignedIn with mailId:username
+2018-11-23 15:39:16,979:INFO:User SignedIn with mailId:username
+2018-11-23 15:46:50,564:INFO:Someone Visited the Page
+2018-11-23 15:47:08,235:INFO:Invalid Data provided username,password
+2018-11-23 15:47:11,486:INFO:Someone Visited the Page
+2018-11-23 15:47:27,133:INFO:User SignedIn with mailId:username
+2018-11-23 15:47:37,261:ERROR:Internal Server Error: /following
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view homeap.views.following didn't return an HttpResponse object. It returned None instead.
+2018-11-23 15:48:42,382:INFO:User SignedIn with mailId:username
+2018-11-23 15:48:44,299:ERROR:Internal Server Error: /following
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view homeap.views.following didn't return an HttpResponse object. It returned None instead.
+2018-11-23 15:54:13,985:INFO:User SignedIn with mailId:username
+2018-11-23 15:54:59,034:INFO:User SignedIn with mailId:username
+2018-11-23 15:55:43,332:INFO:User SignedIn with mailId:username
+2018-11-23 15:56:48,073:INFO:User SignedIn with mailId:username
+2018-11-23 15:57:53,508:INFO:User SignedIn with mailId:username
+2018-11-23 15:59:07,214:INFO:User SignedIn with mailId:username
+2018-11-23 16:00:33,119:INFO:User SignedIn with mailId:username
+2018-11-23 16:01:13,350:INFO:User SignedIn with mailId:username
+2018-11-23 16:02:27,459:INFO:User SignedIn with mailId:username
+2018-11-23 16:03:32,703:INFO:User SignedIn with mailId:username
+2018-11-23 16:04:48,540:INFO:User SignedIn with mailId:username
+2018-11-23 16:05:21,871:INFO:User SignedIn with mailId:username
+2018-11-23 16:05:52,708:INFO:User SignedIn with mailId:username
+2018-11-23 16:06:07,325:INFO:User SignedIn with mailId:username
+2018-11-23 16:07:17,498:INFO:User SignedIn with mailId:username
+2018-11-23 16:07:53,957:INFO:User SignedIn with mailId:username
+2018-11-23 16:08:18,688:INFO:User SignedIn with mailId:username
+2018-11-23 16:10:16,240:INFO:User SignedIn with mailId:username
+2018-11-23 16:11:06,807:INFO:User SignedIn with mailId:username
+2018-11-23 16:11:37,197:INFO:User SignedIn with mailId:username
+2018-11-23 16:12:02,543:INFO:User SignedIn with mailId:username
+2018-11-23 16:12:57,528:INFO:User SignedIn with mailId:username
+2018-11-23 16:14:05,820:INFO:User SignedIn with mailId:username
+2018-11-23 16:14:22,270:INFO:User SignedIn with mailId:username
+2018-11-23 16:14:39,537:INFO:User SignedIn with mailId:username
+2018-11-23 16:15:00,836:INFO:User SignedIn with mailId:username
+2018-11-23 16:15:17,642:INFO:User SignedIn with mailId:username
+2018-11-23 16:16:08,755:INFO:User SignedIn with mailId:username
+2018-11-23 16:16:24,622:INFO:User SignedIn with mailId:username
+2018-11-23 16:17:10,043:INFO:User SignedIn with mailId:username
+2018-11-23 16:17:38,263:INFO:User SignedIn with mailId:username
+2018-11-23 16:17:57,102:INFO:User SignedIn with mailId:username
+2018-11-23 16:19:14,664:INFO:User SignedIn with mailId:username
+2018-11-23 16:19:24,304:INFO:User SignedIn with mailId:username
+2018-11-23 16:19:39,099:INFO:User SignedIn with mailId:username
+2018-11-23 16:20:22,848:INFO:User SignedIn with mailId:username
+2018-11-23 16:21:01,983:INFO:User SignedIn with mailId:username
+2018-11-23 16:22:51,572:INFO:User SignedIn with mailId:username
+2018-11-23 16:23:03,148:INFO:User SignedIn with mailId:username
+2018-11-23 16:23:28,851:INFO:User SignedIn with mailId:username
+2018-11-23 16:23:38,794:INFO:User SignedIn with mailId:username
+2018-11-23 16:24:09,075:INFO:User SignedIn with mailId:username
+2018-11-23 16:24:23,042:INFO:User SignedIn with mailId:username
+2018-11-23 16:27:08,868:INFO:User SignedIn with mailId:username
+2018-11-23 16:27:12,783:WARNING:Not Found: /following/deepakdx7@gmail.com
+2018-11-23 16:31:23,968:INFO:User SignedIn with mailId:username
+2018-11-23 16:31:42,005:INFO:User SignedIn with mailId:username
+2018-11-23 16:32:49,075:INFO:User SignedIn with mailId:username
+2018-11-23 16:33:43,947:INFO:User SignedIn with mailId:username
+2018-11-23 16:34:35,762:INFO:User SignedIn with mailId:username
+2018-11-23 16:34:52,972:INFO:User SignedIn with mailId:username
+2018-11-23 16:35:14,797:INFO:User SignedIn with mailId:username
+2018-11-23 16:35:36,013:INFO:User SignedIn with mailId:username
+2018-11-23 16:35:50,026:INFO:User SignedIn with mailId:username
+2018-11-23 16:36:26,380:INFO:User SignedIn with mailId:username
+2018-11-23 16:37:19,367:INFO:User SignedIn with mailId:username
+2018-11-23 16:37:42,470:INFO:User SignedIn with mailId:username
+2018-11-23 16:44:05,539:INFO:User SignedIn with mailId:username
+2018-11-23 16:45:23,728:INFO:User SignedIn with mailId:username
+2018-11-23 16:46:10,332:INFO:User SignedIn with mailId:username
+2018-11-23 16:46:51,101:INFO:User SignedIn with mailId:username
+2018-11-23 16:46:54,889:INFO:abhay904456@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 16:46:54,903:INFO:eckarthik39@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 16:46:54,904:INFO:New follower add in:deepakdx7@gmail.com
+2018-11-23 16:46:58,840:INFO:User SignedIn with mailId:username
+2018-11-23 16:47:35,833:INFO:User SignedIn with mailId:username
+2018-11-23 16:47:41,609:INFO:abhay904456@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 16:47:41,622:INFO:eckarthik39@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 16:47:41,629:INFO:sanchit1409@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 16:47:41,630:INFO:New follower add in:deepakdx7@gmail.com
+2018-11-23 16:47:41,675:INFO:User SignedIn with mailId:username
+2018-11-23 16:55:15,375:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 63, in getUserData
+    return JsonResponse({'follower':mylist[0]['follower'],'following':mylist[0]['following'],'userlist':listofusers})
+IndexError: list index out of range
+2018-11-23 16:55:16,981:ERROR:Internal Server Error: /getUserData
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 63, in getUserData
+    return JsonResponse({'follower':mylist[0]['follower'],'following':mylist[0]['following'],'userlist':listofusers})
+IndexError: list index out of range
+2018-11-23 16:55:20,812:INFO:Someone Visited the Page
+2018-11-23 16:55:23,012:INFO:Some Tried to SignUP on website
+2018-11-23 16:55:44,562:ERROR:Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 82, in signup
+    obj.save()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\cursor.py", line 53, in execute
+    params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 700, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 763, in parse
+    return handler(self, statement)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 887, in _insert
+    self._query = InsertQuery(self, self.db, self.connection_properties, sm, self._params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 354, in __init__
+    super().__init__(*args)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 74, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 442, in parse
+    tok_id = self._table(2)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 361, in _table
+    raise MigrationError(collection)
+djongo.sql2mongo.MigrationError: homeap_users
+2018-11-23 16:58:02,610:ERROR:Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 82, in signup
+    obj.save()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\cursor.py", line 53, in execute
+    params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 700, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 763, in parse
+    return handler(self, statement)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 887, in _insert
+    self._query = InsertQuery(self, self.db, self.connection_properties, sm, self._params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 354, in __init__
+    super().__init__(*args)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 74, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 442, in parse
+    tok_id = self._table(2)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 361, in _table
+    raise MigrationError(collection)
+djongo.sql2mongo.MigrationError: homeap_users
+2018-11-23 17:01:03,478:INFO:Invalid Data provided username,password
+2018-11-23 17:01:05,720:INFO:Someone Visited the Page
+2018-11-23 17:01:06,797:INFO:Someone tried to recover password
+2018-11-23 17:01:10,316:INFO:Some Tried to SignUP on website
+2018-11-23 17:01:23,396:ERROR:Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 82, in signup
+    obj.save()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\cursor.py", line 53, in execute
+    params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 700, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 763, in parse
+    return handler(self, statement)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 887, in _insert
+    self._query = InsertQuery(self, self.db, self.connection_properties, sm, self._params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 354, in __init__
+    super().__init__(*args)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 74, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 442, in parse
+    tok_id = self._table(2)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 361, in _table
+    raise MigrationError(collection)
+djongo.sql2mongo.MigrationError: homeap_users
+2018-11-23 17:03:52,336:INFO:Some Tried to SignUP on website
+2018-11-23 17:04:05,554:ERROR:Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\M1049300\Desktop\Pyhton Projects\DjangoProject3\main3\homeap\views.py", line 82, in signup
+    obj.save()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\cursor.py", line 53, in execute
+    params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 700, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 763, in parse
+    return handler(self, statement)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 887, in _insert
+    self._query = InsertQuery(self, self.db, self.connection_properties, sm, self._params)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 354, in __init__
+    super().__init__(*args)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 74, in __init__
+    self.parse()
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 442, in parse
+    tok_id = self._table(2)
+  File "C:\Users\M1049300\AppData\Local\Programs\Python\Python36\lib\site-packages\djongo\sql2mongo\query.py", line 361, in _table
+    raise MigrationError(collection)
+djongo.sql2mongo.MigrationError: homeap_users
+2018-11-23 17:08:24,701:INFO:Someone Visited the Page
+2018-11-23 17:08:26,494:INFO:Some Tried to SignUP on website
+2018-11-23 17:08:39,763:INFO:New User Account Created:deepakdx7@gmail.com
+2018-11-23 17:08:45,720:INFO:Some Tried to SignUP on website
+2018-11-23 17:09:03,553:INFO:New User Account Created:abhay904456@gmail.com
+2018-11-23 17:09:10,736:INFO:Some Tried to SignUP on website
+2018-11-23 17:09:58,661:INFO:New User Account Created:eckarthink39@gmail.com
+2018-11-23 17:10:11,057:INFO:Invalid Data provided username,password
+2018-11-23 17:10:13,365:INFO:Someone Visited the Page
+2018-11-23 17:10:17,979:INFO:Invalid Data provided username,password
+2018-11-23 17:10:19,240:INFO:Someone Visited the Page
+2018-11-23 17:11:07,029:INFO:User SignedIn with mailId:username
+2018-11-23 17:11:12,057:INFO:abhay904456@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 17:11:12,058:INFO:New follower add in:deepakdx7@gmail.com
+2018-11-23 17:11:12,120:INFO:User SignedIn with mailId:username
+2018-11-23 17:11:19,826:INFO:Someone Visited the Page
+2018-11-23 17:11:28,093:INFO:User SignedIn with mailId:username
+2018-11-23 17:11:32,231:INFO:eckarthink39@gmail.com user is being followed by abhay904456@gmail.com
+2018-11-23 17:11:32,231:INFO:New follower add in:abhay904456@gmail.com
+2018-11-23 17:11:32,311:INFO:User SignedIn with mailId:username
+2018-11-23 17:11:37,814:INFO:Someone Visited the Page
+2018-11-23 17:11:52,797:INFO:Invalid Data provided username,password
+2018-11-23 17:11:54,153:INFO:Someone Visited the Page
+2018-11-23 17:13:17,231:INFO:Someone tried to recover password
+2018-11-23 17:13:20,411:INFO:Some Tried to SignUP on website
+2018-11-23 17:13:33,176:INFO:New User Account Created:abhay904456@gmail.com
+2018-11-23 17:13:40,698:INFO:Some Tried to SignUP on website
+2018-11-23 17:14:05,007:INFO:New User Account Created:eckarthik39@gmail.com
+2018-11-23 17:14:15,180:INFO:Invalid Data provided username,password
+2018-11-23 17:14:16,427:INFO:Someone Visited the Page
+2018-11-23 17:14:32,101:INFO:User SignedIn with mailId:username
+2018-11-23 17:15:29,294:INFO:Someone Visited the Page
+2018-11-23 17:15:32,445:INFO:Some Tried to SignUP on website
+2018-11-23 17:15:55,048:INFO:New User Account Created:deepakdx7@gmail.com
+2018-11-23 17:16:12,270:INFO:User SignedIn with mailId:username
+2018-11-23 17:16:15,154:INFO:abhay904456@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 17:16:15,154:INFO:New follower add in:deepakdx7@gmail.com
+2018-11-23 17:16:15,216:INFO:User SignedIn with mailId:username
+2018-11-23 17:16:18,165:INFO:Someone Visited the Page
+2018-11-23 17:16:36,048:INFO:User SignedIn with mailId:username
+2018-11-23 17:16:36,056:INFO:User SignedIn with mailId:username
+2018-11-23 17:16:39,749:INFO:eckarthik39@gmail.com user is being followed by abhay904456@gmail.com
+2018-11-23 17:16:39,749:INFO:New follower add in:abhay904456@gmail.com
+2018-11-23 17:16:39,799:INFO:User SignedIn with mailId:username
+2018-11-23 17:16:42,759:INFO:Someone Visited the Page
+2018-11-23 17:16:57,553:INFO:User SignedIn with mailId:username
+2018-11-23 17:17:03,151:INFO:deepakdx7@gmail.com user is being followed by eckarthik39@gmail.com
+2018-11-23 17:17:03,151:INFO:New follower add in:eckarthik39@gmail.com
+2018-11-23 17:17:03,199:INFO:User SignedIn with mailId:username
+2018-11-23 17:17:06,290:INFO:Someone Visited the Page
+2018-11-23 17:17:16,976:INFO:User SignedIn with mailId:username
+2018-11-23 17:17:28,844:INFO:Someone Visited the Page
+2018-11-23 17:19:55,889:INFO:Someone tried to recover password
+2018-11-23 17:20:06,781:INFO:Forgot Password option ,Password as send to mail:abhay904456@gmail.com
+2018-11-23 19:58:49,494:INFO:Someone Visited the Page
+2018-11-23 19:58:59,589:INFO:Invalid Data provided username,password
+2018-11-23 19:59:10,840:INFO:Someone Visited the Page
+2018-11-23 19:59:19,420:INFO:User SignedIn with mailId:username
+2018-11-23 20:00:01,224:INFO:User SignedIn with mailId:username
+2018-11-23 20:00:37,675:INFO:User SignedIn with mailId:username
+2018-11-23 20:01:38,416:INFO:User SignedIn with mailId:username
+2018-11-23 20:03:09,947:INFO:User SignedIn with mailId:username
+2018-11-23 20:04:52,108:INFO:User SignedIn with mailId:username
+2018-11-23 20:05:27,785:INFO:User SignedIn with mailId:username
+2018-11-23 20:06:16,085:INFO:User SignedIn with mailId:username
+2018-11-23 20:07:04,074:INFO:User SignedIn with mailId:username
+2018-11-23 20:07:08,911:INFO:Someone Visited the Page
+2018-11-23 20:07:16,261:INFO:User SignedIn with mailId:username
+2018-11-23 20:07:19,850:INFO:Someone Visited the Page
+2018-11-23 20:07:31,878:INFO:Invalid Data provided username,password
+2018-11-23 20:07:34,370:INFO:Someone Visited the Page
+2018-11-23 20:07:42,558:INFO:User SignedIn with mailId:username
+2018-11-23 20:10:05,491:INFO:User SignedIn with mailId:username
+2018-11-23 20:11:31,263:INFO:User SignedIn with mailId:username
+2018-11-23 20:11:49,410:INFO:User SignedIn with mailId:username
+2018-11-23 20:12:01,893:INFO:User SignedIn with mailId:username
+2018-11-23 20:12:43,667:INFO:User SignedIn with mailId:username
+2018-11-23 20:13:12,872:INFO:User SignedIn with mailId:username
+2018-11-23 20:13:43,735:INFO:User SignedIn with mailId:username
+2018-11-23 20:14:32,742:INFO:User SignedIn with mailId:username
+2018-11-23 20:15:15,930:INFO:User SignedIn with mailId:username
+2018-11-23 20:16:15,131:INFO:User SignedIn with mailId:username
+2018-11-23 20:16:47,423:INFO:User SignedIn with mailId:username
+2018-11-23 21:51:11,617:INFO:Someone Visited the Page
+2018-11-23 21:51:35,105:INFO:User SignedIn with mailId:username
+2018-11-23 21:52:03,843:INFO:Someone Visited the Page
+2018-11-23 21:52:18,469:INFO:User SignedIn with mailId:username
+2018-11-23 21:54:57,571:INFO:Someone Visited the Page
+2018-11-23 21:54:58,908:INFO:Someone tried to recover password
+2018-11-23 21:55:01,319:INFO:Some Tried to SignUP on website
+2018-11-23 21:55:21,455:INFO:New User Account Created:dee311096@gmail.com
+2018-11-23 21:55:37,215:INFO:User SignedIn with mailId:username
+2018-11-23 21:55:49,100:INFO:deepakdx7@gmail.com user is being followed by dee311096@gmail.com
+2018-11-23 21:55:49,100:INFO:New follower add in:dee311096@gmail.com
+2018-11-23 21:55:49,200:INFO:User SignedIn with mailId:username
+2018-11-23 21:55:58,462:INFO:User SignedIn with mailId:username
+2018-11-23 21:56:03,839:INFO:abhay904456@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 21:56:03,853:INFO:dee311096@gmail.com user is being followed by deepakdx7@gmail.com
+2018-11-23 21:56:03,854:INFO:New follower add in:deepakdx7@gmail.com
+2018-11-23 21:56:03,932:INFO:User SignedIn with mailId:username
+2018-11-23 21:56:25,719:INFO:User SignedIn with mailId:username
+2018-11-23 21:56:40,340:INFO:User SignedIn with mailId:username
+2018-11-23 21:56:52,053:INFO:User SignedIn with mailId:username
+2018-11-23 21:59:16,225:INFO:User SignedIn with mailId:username
+2018-11-23 21:59:21,616:INFO:User SignedIn with mailId:username
+2018-11-23 22:00:24,727:INFO:User SignedIn with mailId:username
+2018-11-23 22:00:53,294:INFO:User SignedIn with mailId:username
+2018-11-23 22:02:19,960:INFO:Someone Visited the Page
+2018-11-23 22:02:22,505:INFO:Someone Visited the Page
+2018-11-23 22:02:24,832:INFO:Someone Visited the Page
+2018-11-23 22:02:28,457:INFO:Someone Visited the Page
+2018-11-23 22:03:31,935:INFO:User SignedIn with mailId:username
+2018-11-23 22:14:38,208:INFO:User SignedIn with mailId:username
+2018-11-23 22:15:44,490:INFO:User SignedIn with mailId:username
+2018-11-23 22:16:07,943:INFO:User SignedIn with mailId:username
+2018-11-23 22:17:11,150:INFO:Someone Visited the Page
+2018-11-23 22:17:31,713:INFO:User SignedIn with mailId:username
+2018-11-23 22:17:43,573:INFO:Someone Visited the Page
+2018-11-23 22:20:41,968:INFO:Someone Visited the Page
+2018-11-23 22:20:49,225:INFO:User SignedIn with mailId:username
+2018-11-23 22:20:53,417:INFO:User SignedIn with mailId:username
+2018-11-23 22:24:19,573:INFO:User SignedIn with mailId:username
+2018-11-23 22:26:25,933:INFO:User SignedIn with mailId:username
+2018-11-23 22:26:25,999:WARNING:Not Found: /back.jpg
+2018-11-23 22:29:14,728:INFO:User SignedIn with mailId:username
+2018-11-24 00:14:04,929:INFO:User SignedIn with mailId:username
+2018-11-24 00:14:20,148:INFO:User SignedIn with mailId:username
+2018-11-24 00:14:36,960:INFO:User SignedIn with mailId:username
+2018-11-24 00:15:20,673:INFO:User SignedIn with mailId:username
+2018-11-24 00:15:46,252:INFO:User SignedIn with mailId:username
+2018-11-24 00:15:59,003:INFO:User SignedIn with mailId:username
+2018-11-24 00:16:34,319:INFO:User SignedIn with mailId:username
+2018-11-24 00:22:26,038:INFO:User SignedIn with mailId:username
+2018-11-24 01:43:00,805:INFO:User SignedIn with mailId:username
+2018-11-24 08:35:42,992:INFO:User SignedIn with mailId:username

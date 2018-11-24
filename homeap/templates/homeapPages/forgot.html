@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forgot Password</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    {% csrf_token %}
+    <script>
+        $(document).ready(function(){
+            $('#next').click(function(){
+                var jdata={
+                    username:$('#name').val(),
+                };
+                alert('Clicked');
+                var tokenvalue=jQuery("[name=csrfmiddlewaretoken]").val();
+                $.ajax({
+                    type:'POST',
+                    url:'http://127.0.0.1:8000/forgot/',
+                    beforeSend:function(request){
+                        request.setRequestHeader('Content-Type','application/json');
+                        request.setRequestHeader('X-CSRFToken',tokenvalue);
+
+                    },
+                    data:JSON.stringify(jdata),
+                    success:function(response){
+                        alert(response['key']);
+                        console.log(response);
+                        $('#target').append('');
+                        $('#target').append('Password:  '+response['key'])
+
+                    },
+                    error:function(e,status,x){
+                        alert('Error:'+e.status);
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+<center>
+    <h2>Provide your Valid ID:</h2>
+<input type="text" name="username" id="name">
+<button id="next">Check</button>
+<div id='target'>
+
+</div>
+
+</body>
+</html>

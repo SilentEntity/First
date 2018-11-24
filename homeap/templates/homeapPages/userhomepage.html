@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a{
+            float: right;
+        }
+        #follower{
+            border: 2px solid rgb(19, 219, 69);
+            float: right;   
+            padding: 10px;
+            margin: 2px;   
+            background-color: rgb(134, 228, 134);      
+        }
+        #following{
+
+            border: 2px solid rgb(240, 0, 0);
+            float: left;
+            padding: 10px; 
+            margin: 5px;  
+            background-color: rgb(221, 120, 120);         
+        }
+        #users{
+
+            border: 2px solid rgb(0, 128, 249);
+            position:absolute;
+            left:1150px; top:500px;
+            padding: 10px; 
+            margin: 5px;  
+            width:400px;
+            background-color: rgb(166, 141, 233);         
+            }
+        div.scroll{
+            /* position: absolute;
+            top:500px; */
+            background-color: rgb(141, 184, 76);
+            height: 200px;
+            width: 300px;
+            overflow: auto;
+            border: 2px solid rgb(45, 124, 45);
+            padding: 5px;
+        }
+        #msg{
+            /* background-color: rgb(59, 235, 159); */
+            position: absolute;
+            top:400px;
+            
+            border: 2px solid black;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!--{% csrf_token %}-->
+    
+
+</head>
+<body onload="getUserData();" value={{data}} style="background-color:rgb(66, 179, 179);">
+    
+<h3 >Hi <span id='valx'>{{data}}</span><h3>
+<a href="">LOG OUT</a>
+    <div id='follower'>          
+        
+    </div>
+    <div id='following'>
+        </div>
+    <div id='users'>
+
+    </div>
+    <!-- <form > -->
+        <div id='msg'>
+        Posts
+    <div class="scroll" id='msgkeeper'>
+    <!-- <p>This is a scrollable container<br>lets see if this will scroll!!!!!!!!<br>lets Go!!!!!!!<br>lets checkkkk!!!!<br>INserting random text<br>heyyyy!!<br>human<br>smile<br>LIVE FREE LIFE</p> -->
+    
+    </div>
+    <input type='text' id='sendthis'>
+    <button id='send' onclick="send();">POST</button>
+    </div>
+    <!-- </form> -->
+
+   
+
+    <script>
+        function send(){
+            var t=$('#sendthis').val();
+            $('#msgkeeper').append($('#valx').text()+':');
+            $('#msgkeeper').append(t+'<br>');
+            $('#sendthis').val('');
+        }
+
+        $('#users').on('click','.mybtns', function(){
+
+                alert($(this).text()+'is followed by'+$('#valx').text());
+                var jdata={
+                    'username':$('#valx').text(),
+                    'user':$(this).text()
+                };
+                
+                $.ajax(
+	        {   					
+                type:"POST",
+                url:"following",
+                beforeSend:function(request){
+                request.setRequestHeader("Content-Type","application/json");
+                request.setRequestHeader("Accept","text/plain");
+                },
+                data:JSON.stringify(jdata),
+                success:function(dat){
+                    location.reload()
+                    // alert("Succeed"+" "+dat);
+                },
+                error:function(e,status,t){
+                    alert("Error"+" "+e.status);
+                }
+                });
+                
+
+        });
+       
+
+        console.log($('#valx').text());
+                function getUserData(){
+                    var jdata={
+                        username:$('#valx').text(),
+                    };
+                    
+                    $.ajax({
+                            type:'POST',
+                            url:'getUserData',
+                            beforeSend:function(request){
+                                request.setRequestHeader('Content','application/json');
+                                // request.setRequestHeader('X-CSRFToken',tokenvalue);
+        
+                            },
+                            data:JSON.stringify(jdata),
+                            success:function(response){
+                                console.log(response)
+                                $('#follower').append('Followers<br><ul>')
+                                for(var i=0;i<response['follower'].length;i++){
+                                    $('#follower').append('<li>'+response['follower'][i]+'</li>')
+                                    $('#follower').append('<br>')
+                                }
+                                $('#follower').append('</ul>')
+                                $('#following').append('</ul>Following<br><ul>')
+                                for(var k=0;k<response['following'].length;k++){
+                                    $('#following').append('<li>'+response['following'][k]+'</li>')
+                                }
+                                $('#following').append('</ul>')
+                                $('#users').append('Available Users You Can Follow<br>')
+                                for(var j=0;j<response['userlist'].length;j++){
+                                    $('#users').append('<button class="mybtns">'+response['userlist'][j]['username']+'</button><br>')
+                                }
+                                // $('#users').append('</ul>')
+        
+                            },
+                            error:function(e,status,x){
+                                alert('Error:'+e.status);
+                            }
+        
+                        });
+                }  
+    
+            </script>
+
+            
+</body>
+</html>
